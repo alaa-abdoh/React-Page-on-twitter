@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: black;
+  /* background-color: black; */
 }
 button{
   padding: 7px 0;
@@ -219,4 +219,50 @@ background-color: var(--paragraphsColor);
 .page .content .mid .links a.active{
   color: var(--paragraphsColor);
   border-bottom: 2px solid #1c9ff8;
+}
+.page .content .mid .posts .post{
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid #26292b;  
+}
+.page .content .mid .posts .post img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.page .content .mid .posts .post .info{
+  flex: 1;
+  margin-left: 15px;
+}
+.page .content .mid .posts .post .info .header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page .content .mid .posts .post .info .header div{
+  display: flex;
+}
+.page .content .mid .posts .post .info .header div .name{
+  color: var(--paragraphsColor);
+  font-weight: bold;
+}
+.page .content .mid .posts .post .info .header div .name2{
+  margin: 0 5px;
+}
+.page .content .mid .posts .post .info .header div .name2,
+.page .content .mid .posts .post .info .header div span{
+  color: var(--secondoryColor);
+  font-size: 15px;
+}
+.page .content .mid .posts .post .info .postContent{
+  color: var(--paragraphsColor);
+  margin-bottom: 10px;
+}
+.page .content .mid .posts .post .info .footer{
+  display: flex;
+  justify-content: space-between;
+  color: var(--paragraphsColor);
+}
+.page .content .mid .posts .post .info .footer span{
+  margin-left: 5px;
 }

@@ -3,6 +3,7 @@ import profilePicture from "../images/profilePicture.png";
 import coverPicture from "../images/cover.jpg"
 import ProfileInfo from "./ProfileInfo"
 import Links from "./Links"
+import Posts from "./Posts"
 function Content(){
     let profile ={
         name : "React",
@@ -22,6 +23,7 @@ function Content(){
                 <Profile info={profile}/>
                 <ProfileInfo info={profile}/>
                 <Links/>
+                <Posts/>
             </div>
             <div className="right">
                 right side bar
