@@ -31,18 +31,20 @@ button:hover{
   justify-content: space-between;
   height: 100vh;
   padding: 20px 10px;
-  border-right: 1px solid #26292b;  
+  position: fixed;
+  width: 250px;
 }
 .page .leftSide .topPart .Xicon{
   font-size:25px ;
   color: var(--paragraphsColor);
+  padding-left: 20px;
 }
 .page .leftSide .topPart ul{
   margin: 30px 0;
 }
 .page .leftSide .topPart ul li{
   color: var(--paragraphsColor);
-  padding: 7px 0;
+  padding: 10px 20px;
   transition: all 0.3s linear;
   display: flex;
   align-items: center;
@@ -63,6 +65,7 @@ background-color: var(--paragraphsColor);
 }
 .page .leftSide .user{
   display: flex;
+  justify-content: space-between;
 }
 .page .leftSide .user img{
   width: 50px;
@@ -93,10 +96,13 @@ background-color: var(--paragraphsColor);
 .page .content{
   flex: 1;
   display: flex;
+  margin-left: 260px;
 }
 .page .content .mid{
   width: 55%;
-  border-right: 1px solid #26292b;  
+  border-right: 1px solid #26292b;
+  border-left: 1px solid #26292b;  
+  
 }
 .page .content .mid .profile .top{
   display: flex;

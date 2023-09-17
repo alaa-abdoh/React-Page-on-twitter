@@ -47,7 +47,9 @@ function LeftBar(){
                         <a href="">More</a>
                     </li>
                 </ul>
-                <Btn size="large" background="blue" text="Post" />
+                <div style={{textAlign:"center"}}>
+                    <Btn size="large" background="blue" text="Post" className="postBtn" />
+                </div>
             </div>
             <User imgPath={user} name="Alaa Abdoh" email="alaajabdoh1701@gmail.com" />
         </div>
