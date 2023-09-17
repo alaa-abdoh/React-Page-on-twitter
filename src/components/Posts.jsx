@@ -40,7 +40,7 @@ function Posts(){
                                         <p className="name2">{post.name2}</p>
                                         <span>. {post.data}</span>
                                     </div>
-                                    <FontAwesomeIcon icon={faEllipsis} style={{color:`var(--paragraphsColor)`}}/>   
+                                    <FontAwesomeIcon icon={faEllipsis} style={{cursor:"pointer", color:`var(--paragraphsColor)`}}/>   
                                 </div>
                                 <p className="postContent">{post.content}</p>
                                 <div className="footer">
@@ -60,7 +60,7 @@ function Posts(){
                                         <FontAwesomeIcon icon={faChartSimple}/>
                                         <span>{post.statistics}</span>
                                     </div>
-                                    <FontAwesomeIcon icon={faArrowUpFromBracket}/>
+                                    <FontAwesomeIcon icon={faArrowUpFromBracket} style={{cursor:"pointer"}}/>
                                 </div>
                             </div>
                         </div>

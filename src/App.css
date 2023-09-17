@@ -1,6 +1,6 @@
 :root{
   --paragraphsColor: #dadcdc;
-  --secondoryColor : #37393c;
+  --secondoryColor : #5c6064;
 }
 *{
   padding: 0;
@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 body{
-  /* background-color: black; */
+  background-color: black;
 }
 button{
   padding: 7px 0;
@@ -265,4 +265,44 @@ background-color: var(--paragraphsColor);
 }
 .page .content .mid .posts .post .info .footer span{
   margin-left: 5px;
+}
+.page .content .mid .pages{
+  padding: 20px;
+}
+.page .content .mid .pages h3{
+  color: var(--paragraphsColor);
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+.page .content .mid .pages .onePage{
+  display: flex;
+  margin-bottom: 30px;
+}
+.onePage .cont{
+  margin-left: 15px;
+}
+.onePage img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.onePage .cont > div{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.onePage .cont > div h4{
+  color: var(--paragraphsColor);
+}
+.onePage .cont > div .name2{
+  color: var(--secondoryColor);
+  margin: 2px 0 5px;
+}
+.onePage .cont > div .verified{
+  color: #1d9cf2;
+}
+.onePage .cont .description{
+  color: var(--paragraphsColor);
 }
