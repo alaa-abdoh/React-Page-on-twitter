@@ -8,6 +8,7 @@ import ProfileInfo from "./ProfileInfo"
 import Links from "./Links"
 import Posts from "./Posts"
 import WhoToFollow from "./WhoToFollow";
+import RightSide from "./RightSide";
 
 function Content(){
     let profile ={
@@ -57,8 +58,8 @@ function Content(){
                 <Posts/>
                 <WhoToFollow pages = {toFollow}/>
             </div>
-            <div className="right">
-                right side bar
+            <div className="rightSide">
+                <RightSide pages = {toFollow}/>
             </div>
         </div>
     )

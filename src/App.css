@@ -99,7 +99,7 @@ background-color: var(--paragraphsColor);
   margin-left: 260px;
 }
 .page .content .mid{
-  width: 55%;
+  width: 50%;
   border-right: 1px solid #26292b;
   border-left: 1px solid #26292b;  
   
@@ -281,12 +281,14 @@ background-color: var(--paragraphsColor);
   font-size: 25px;
   margin-bottom: 40px;
 }
-.page .content .mid .pages .onePage{
+.onePage{
   display: flex;
   margin-bottom: 30px;
+  width: 100%;
 }
 .onePage .cont{
   margin-left: 15px;
+  width: 100%;
 }
 .onePage img{
   width: 50px;
@@ -311,4 +313,65 @@ background-color: var(--paragraphsColor);
 }
 .onePage .cont .description{
   color: var(--paragraphsColor);
+}
+.page .rightSide{
+  padding: 20px ;
+  width: 40%;
+}
+.page .rightSide .search{
+  background-color: #16181c;
+  padding: 15px 30px;
+  border-radius: 50px;
+}
+.page .rightSide .search .glass{
+  color: var(--secondoryColor);
+}
+.page .rightSide .search input{
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  color: var(--paragraphsColor);
+}
+.page .rightSide .search input::placeholder{
+  color: var(--secondoryColor);
+  font-size: 17px;
+}
+.page .rightSide .search input:focus{
+  outline: none;
+}
+.might,
+.trends{
+  background-color: #16181c;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+.might h3,
+.trends h3{
+  color: var(--paragraphsColor);
+  margin-bottom: 20px;
+}
+.trends .trend {
+  margin-bottom: 20px;
+}
+.trends .trend div p,
+.trends .trend p + p{
+  color: var(--secondoryColor);
+  font-size: 13px;
+}
+.trends .trend .name{
+  color: var(--paragraphsColor);
+  font-weight: bold;
+  margin: 2px 0;
+}
+.moreLinks{
+  width: 85%;
+  margin: 0 auto;
+}
+.moreLinks a{
+  color: var(--secondoryColor);
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 14px;
 }
