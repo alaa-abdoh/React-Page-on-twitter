@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faX, faHome, faMagnifyingGlass, faBell, faMessage,
+import { faX, faHome, faMagnifyingGlass, faBell, faMessage,faListUl,
         faRectangleList, faBookmark, faUserGroup, faUser, faCircleDot    } from '@fortawesome/free-solid-svg-icons';
 import Btn from './Button';
 import User from './User';
@@ -47,6 +47,7 @@ function LeftBar(){
                         <a href="">More</a>
                     </li>
                 </ul>
+                <FontAwesomeIcon icon={faListUl} className='list'/>
                 <div style={{textAlign:"center"}}>
                     <Btn size="large" background="blue" text="Post" className="postBtn" />
                 </div>

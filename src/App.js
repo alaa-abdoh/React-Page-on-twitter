@@ -5,8 +5,10 @@ import Content from "./components/Content";
 function App() {
   return (
     <div className="page">
-      <LeftBar/>
-      <Content/>
+      <div className="container">
+        <LeftBar/>
+        <Content/>
+      </div>
     </div>
   );
 }
